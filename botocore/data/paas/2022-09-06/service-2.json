@@ -1249,6 +1249,9 @@
     },
     "ListLogstashPipelinesRequest": {
       "type": "structure",
+      "required": [
+        "serviceId"
+      ],
       "members": {
         "serviceId": {
           "shape": "String",
@@ -1365,6 +1368,9 @@
     },
     "ListPrometheusRoutesRequest": {
       "type": "structure",
+      "required": [
+        "serviceId"
+      ],
       "members": {
         "serviceId": {
           "shape": "String",
@@ -1482,6 +1488,9 @@
     },
     "ListPrometheusScrapeJobsRequest": {
       "type": "structure",
+      "required": [
+        "serviceId"
+      ],
       "members": {
         "serviceId": {
           "shape": "String",
@@ -1599,6 +1608,9 @@
     },
     "ListNotificationChannelsRequest": {
       "type": "structure",
+      "required": [
+        "serviceId"
+      ],
       "members": {
         "serviceId": {
           "shape": "String",
